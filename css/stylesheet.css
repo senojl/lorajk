@@ -1,4 +1,9 @@
-body {background-color: #b7b7b7;
+body {
+  background-color: #b7b7b7;
+  margin:0;
+  padding:0;
+  height: 100%;
+
 }
 
 html {
@@ -7,49 +12,59 @@ html {
       -ms-text-size-adjust: 100%;
 }
 
+.allthisjunk{
+  min-width: 100%;
+  position: absolute;
+  padding:75px;
+}
+
 .logoimg{
-	padding-left: 3%;
+  margin: 20px;
 	max-height: 50;
 }	
 
+.masonry {
+  margin:0 auto;
+  padding-bottom: 100px;
+  min-width: 90%;
+  position: relative;
+
+}
+
+.item{
+  width:  200px;
+  height: 200px;
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+
+}
+
 .bottombar{
-	height:15%;
+	height:70px;
 	background-color: #9b9b9b;
 	width: 100%;
 	float: none;
 	bottom:0px;
 	position: fixed;
+  margin-top: 50px;
 	margin-bottom: 0px;
 	text-align: left;
-	margin-left: -8px;
-	padding-left: 1%;
-	padding-top: 1%;
+	margin-left: 0;
+	padding-left:15px;
+	padding-top: 15px;
+  bottom:0;
+  left:0;
 }
 
 .raptor{
 	
 	float:right;
 	position: relative;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-top: 0px;
+  bottom: 35px;
 }
 
-.masonry {
-  background: #EEE;
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.item {
-  width:  200px;
-  height: 200px;
-  float: left;
-  border-radius: 5px;
-  margin-left: 10px;
-  margin-top: 10px;
-}
 
 article,
 aside,
@@ -147,6 +162,7 @@ img {
 
 .nav {
   padding-right: 0;
+  margin-right: 15px;
   margin-bottom: 0;
   list-style: none;
 }
@@ -198,4 +214,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-left: 15px;
 }
+
