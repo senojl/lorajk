@@ -1,8 +1,9 @@
 body {
-  background-color: #b7b7b7;
+  background-color: #e0e0e0;
   margin:0;
   padding:0;
   height: 100%;
+  width:100%;
 
 }
 
@@ -12,24 +13,123 @@ html {
       -ms-text-size-adjust: 100%;
 }
 
+h2 {
+  font-family: sans-serif;
+  font-strength:strong;
+  color:#2e8bcb;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #2e8bcb;
+  font-strength:strong;
+  font-style: italic;
+}
+
+.gallery{
+  display: none;
+}
+
+#largeimage{
+  position: fixed;
+  left: 275px;
+  width: 50%;
+  height:75%;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel .item{
+  width: 100%;
+  height:525px;
+  margin:auto;
+}
+
+.right-control{
+  position: absolute;
+  right: 0;
+  left: auto;
+  width: 15%;
+  margin-top:10px;
+  font-size: 20px;
+  color: #2e8bcb;
+  text-align: center;
+}
+
+.left-control{
+  position: absolute;
+  width: 15%;
+  margin-top:10px;
+  font-size: 20px;
+  color: #2e8bcb;
+  text-align: center;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  outline-color: #2e8bcb;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  background-color: #2e8bcb \9;
+  background-color: rgba(46, 139, 203, 0);
+  border: 1px solid #2e8bcb;
+}
+
+.carousel-indicators .active {
+  background-color: #2e8bcb;
+}
+
 .allthisjunk{
   min-width: 100%;
-  position: absolute;
-  padding:75px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px;
+  margin-top: 100px;
+}
+
+.sideview{
+  margin-left: 20px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.externalsites{
+  padding: 5px;
+}
+
+.descriptors{
+  position: fixed;
+  right:80px;
+  left: 75%;
+
+}
+
+.row{
+  margin-bottom: 25px;
 }
 
 .logoimg{
-  margin: 20px;
-	max-height: 50;
+  position: fixed;
+  left: 20px;
+  top: 0px;
+  padding-top: 15px;
+  background-color: #e0e0e0;
+  height:75px;
+  width: 100%;
 }	
-
-.masonry {
-  margin:0 auto;
-  padding-bottom: 100px;
-  min-width: 90%;
-  position: relative;
-
-}
 
 .item{
   width:  200px;
@@ -37,22 +137,23 @@ html {
   display: inline-block;
   margin: 5px;
   position: relative;
+  opacity: 30%
 
 }
 
 .bottombar{
-	height:70px;
-	background-color: #9b9b9b;
+	height:75px;
+	background-color: #b7b7b7;
 	width: 100%;
 	float: none;
 	bottom:0px;
 	position: fixed;
-  margin-top: 50px;
+  margin-top: 0px;
 	margin-bottom: 0px;
 	text-align: left;
 	margin-left: 0;
-	padding-left:15px;
-	padding-top: 15px;
+	padding-left:20px;
+	padding-top: 5px;
   bottom:0;
   left:0;
 }
@@ -60,41 +161,11 @@ html {
 .raptor{
 	
 	float:right;
+  right:-40px;
 	position: relative;
-  bottom: 35px;
+  bottom: 30px;
 }
 
-
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-  display: block;
-}
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  vertical-align: baseline;
-}
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-[hidden],
-template {
-  display: none;
-}
 a {
   background: transparent;
   text-decoration: none;
@@ -144,76 +215,6 @@ img {
   border: 0;
 }
 
-.nav-pills > li {
-  float: right;
-}
-.nav-pills > li > a {
-  border-radius: 10px;
-}
-.nav-pills > li + li {
-  margin-right:10%;
-}
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #2e8bcb;
-}
+#sideGallery { display: none; }
 
-.nav {
-  padding-right: 0;
-  margin-right: 15px;
-  margin-bottom: 0;
-  list-style: none;
-}
-.nav > li {
-  position: relative;
-  display: block;
-}
-.nav > li > a {
-  position: relative;
-  display: block;
-  padding: 10px 20px;
-}
-.nav > li > a:hover,
-.nav > li > a:focus {
-  text-decoration: none;
-  background-color: #9b9b9b;
-}
-.nav > li.disabled > a {
-  color: #999;
-}
-.nav > li.disabled > a:hover,
-.nav > li.disabled > a:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: not-allowed;
-  background-color: transparent;
-}
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
-  background-color: #eee;
-  border-color: #2e8bcb;
-}
-.nav .nav-divider {
-  height: 1px;
-  margin: 9px 0;
-  overflow: hidden;
-  background-color: #e5e5e5;
-}
-.nav > li > a > img {
-  max-width: none;
-}
-
-.img-responsive,
-.thumbnail > img,
-.thumbnail a > img,
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-left: 15px;
-}
 
