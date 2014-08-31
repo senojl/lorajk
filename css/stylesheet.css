@@ -32,7 +32,7 @@ h4 {
   display: none;
 }
 
-#largeimage{
+.carousel{
   position: fixed;
   left: 275px;
   width: 50%;
