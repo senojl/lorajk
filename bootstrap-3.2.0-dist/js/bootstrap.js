@@ -289,7 +289,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
     this.$element    = $(element).on('keydown.bs.carousel', $.proxy(this.keydown, this))
     this.$indicators = this.$element.find('.carousel-indicators')
     this.options     = options
-    this.paused      =
+    this.paused      = 
     this.sliding     =
     this.interval    =
     this.$active     =
