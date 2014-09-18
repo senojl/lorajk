@@ -34,7 +34,7 @@ h4 {
 
 .carousel{
   position: fixed;
-  margin-left: 275px;
+  margin-left: 15%;
   width: 50%;
   height:75%;
 }
@@ -226,7 +226,7 @@ img {
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
   .carousel .item{
-    height:800px;
+    height:1000px;
   }
 }
 
@@ -250,20 +250,158 @@ img {
   height:75%;
   }
 
+  .bottombar{
+  position: relative;
+  }
+
+  .sideview{
+  margin-left: 20px;
+  margin-top: 75px;
+  margin-bottom: 0px;
+  }
+
+  .descriptors{
+  position: absolute;
+  right:5%;
+  left: 75%;
+
+}
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+.right-control{
+  position: relative;
+  right: 0;
+  left: 49%;
+  width: 15%;
+  margin-top:10px;
+  font-size: 20px;
+  color: #2e8bcb;
+  text-align: center;
+}
+
+.left-control{
+  position: relative;
+  left: 44%;
+  bottom: -5%;
+  width: 15%;
+  margin-top:10px;
+  font-size: 20px;
+  color: #2e8bcb;
+  text-align: center;
+}
+
+.carousel-indicators {
+  position: relative;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  outline-color: #2e8bcb;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  visibility: hidden;
+}
+
+  .carousel .item{
+    height:325px;
+  }
+
+  .carousel{
+  position: fixed;
+  margin-left: 120px;
+  width: 60%;
+  height:75%;
+  }
+
+  .bottombar{
+  position: relative;
+  }
+
+  .sideview{
+  margin-left: 20px;
+  margin-top: 75px;
+  margin-bottom: 0px;
+  }
+
+  .descriptors{
+  position: absolute;
+  right:5%;
+  left: 75%;
+
+}
 
 }
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+.right-control{
+  position: relative;
+  right: 0;
+  left: 49%;
+  width: 15%;
+  margin-top:10px;
+  font-size: 20px;
+  color: #2e8bcb;
+  text-align: center;
+}
+
+.left-control{
+  position: relative;
+  left: 44%;
+  bottom: -5%;
+  width: 15%;
+  margin-top:10px;
+  font-size: 20px;
+  color: #2e8bcb;
+  text-align: center;
+}
+
+.carousel-indicators {
+  position: relative;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  outline-color: #2e8bcb;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  visibility: hidden;
+}
+
+  .carousel .item{
+    height:300px;
+  }
+
   .carousel{
-  position: fixed;
-  margin-left: 20px;
+  position: absolute;
+  margin-left: 0px;
   width: 100%;
   height:75%;
+  }
+  .descriptors{
+  position: absolute;
+  top:60%;
+  right: 0;
+  left: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  }
+
+  .bottombar{
+  position: relative;
+  bottom:0;
+  left: 0;
+  }
+
+  .sideview{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 80%;
+  margin-bottom: 0px;
   }
 }
 
