@@ -169,7 +169,7 @@ h4 {
 	float:right;
   right:-40px;
 	position: relative;
-  bottom: 30px;
+  bottom: -5px;
 }
 
 a {
@@ -377,6 +377,7 @@ img {
   }
 
   .carousel{
+  top: 10%;
   position: absolute;
   margin-left: 0px;
   width: 100%;
@@ -384,7 +385,7 @@ img {
   }
   .descriptors{
   position: absolute;
-  top:60%;
+  top:70%;
   right: 0;
   left: 0;
   margin-left: 15px;
@@ -392,6 +393,7 @@ img {
   }
 
   .bottombar{
+  visibility: hidden;
   position: relative;
   bottom:0;
   left: 0;
@@ -400,8 +402,18 @@ img {
   .sideview{
   position: absolute;
   margin-left: 20px;
-  margin-top: 80%;
+  top: 600px;
   margin-bottom: 0px;
   }
+
+  .logoimg{
+  position: relative;
+  left: 20px;
+  top: 0px;
+  padding-top: 15px;
+  background-color: #e0e0e0;
+  height:75px;
+  width: 100%;
+} 
 }
 
