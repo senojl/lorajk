@@ -169,7 +169,7 @@ h4 {
 	float:right;
   right:-40px;
 	position: relative;
-  bottom: -5px;
+  bottom: 0px;
 }
 
 a {
@@ -219,6 +219,18 @@ sub {
 }
 img {
   border: 0;
+}
+
+.carousel-caption {
+  position: relative;
+  z-index: 10;
+  margin-top: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #000;
+  text-align: center;
+  text-size:14px;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
 #sideGallery { display: none; }
@@ -402,7 +414,7 @@ img {
   .sideview{
   position: absolute;
   margin-left: 20px;
-  top: 600px;
+  top: 200px;
   margin-bottom: 0px;
   }
 
