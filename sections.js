@@ -5,4 +5,8 @@ $(document).ready(function() {
     	divs.hide();
     	$($(this).attr('href')).show();
 	});
+	$('#fsupport').click(function(e) {
+    	$('#fsupport').show;
+    	$('#mintor').fadeTo(0, 0.5);
+	});
 });
