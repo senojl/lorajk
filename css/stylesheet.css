@@ -245,7 +245,7 @@ img {
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) {
   .carousel .item{
-    height:525px;
+    height:600px;
   }
 }
 
