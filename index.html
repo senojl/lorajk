@@ -1,406 +1,140 @@
-<!DOCTYPE html>
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>Lora Kulm's Portfolio</title>
-    <link rel="icon" href="img/favicon.ico">
-    
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="description" content="Lora J. Kulm's Design Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Lora J. Kulm's Design Portfolio</title>
 
-    <!-- Bootstrap theme -->
-    <link href="bootstrap-3.2.0-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
 
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
 
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.grey-orange.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
   </head>
   <body>
-
-    <div class="logoimg"><img src="img/loralogowebsite.png" height="50"></div>
-
-    <div id="gallery-fsupport" class="gallery" style="display:inline;">
-      <div class="descriptors">
-        <h2>Freshman Support Re-branding</h2>
-        <p>During my work for Freshman Support, I was faced with condensing an extreme amount of information from financial aid resources and making it easier to understand as a student with little financial experience. I worked on making a financial calculator to estimate incoming costs as a freshman, which built upon work I developed during the Mintor project. I also assisted with the UX of the rest of the site, and I designed the accompanying mobile site, taking the webpages of the other designers, and creating a seamless mobile experience. <br><h4>Date</h4>2013 <br><h4>Category</h4>UX Design<br>Visual Design<br>Mobile Design</p>
-      </div>
-
-      <div id="carousel-fs" class="carousel slide" data-interval="false" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-fs" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-fs" data-slide-to="1"></li>
-            <li data-target="#carousel-fs" data-slide-to="2"></li>
-            <li data-target="#carousel-fs" data-slide-to="3"></li>
-            <li data-target="#carousel-fs" data-slide-to="4"></li>
-            <li data-target="#carousel-fs" data-slide-to="5"></li>
-            <li data-target="#carousel-fs" data-slide-to="6"></li>
-            <li data-target="#carousel-fs" data-slide-to="7"></li>
-            <li data-target="#carousel-fs" data-slide-to="8"></li>
-            <li data-target="#carousel-fs" data-slide-to="9"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/financialdata.png" alt="First slide">
-            </div>
-            <div class="item">
-              <img src="img/fsupport_2.png" alt="Second slide">
-            </div>
-            <div class="item">
-              <img src="img/fsupport_3.png" alt="Third slide">
-            </div>
-            <div class="item">
-              <img src="img/fsmobile_1.png" alt="Fourth slide">
-            </div>
-            <div class="item">
-              <img src="img/fsmobile_2.png" alt="Fifth slide">
-            </div>
-            <div class="item">
-              <img src="img/fsmobile_3.png" alt="Sixth slide">
-            </div>
-            <div class="item">
-              <img src="img/fsmobile_4.png" alt="Seventh slide">
-            </div>
-            <div class="item">
-              <img src="img/fsmobile_5.png" alt="Eighth slide">
-            </div>
-            <div class="item">
-              <img src="img/fshomes_1.png" alt="Ninth slide">
-            </div>
-            <div class="item">
-              <img src="img/fshomes_2.png" alt="Tenth slide">
-            </div>
-          </div>
-          <a class="left-control" href="#carousel-fs" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right-control" href="#carousel-fs" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
-    </div>   
-
-    <div id="gallery-sgaloshes" class="gallery">
-      <div class="descriptors">
-        <h2>Sun Galoshes</h2>
-        <p>Sun Galoshes is a weather app that I'm designing and developing. It takes a minimalist approach to the icons, and the information becomes key. This project required a lot of information architecture, and most of the user experience work was focused on how the large amount of information would be shown. Weather information is extremely data and number driven, and I chose to make the key components the temperature and rain chance, with the extra information being available in a pop-up dialog. I'm also looking into the options available for a weather map.<br><h4>Date</h4>2014 <br><h4>Category</h4>UX Design<br>Visual Design<br>Mobile Design<br>Programming</p> 
-      </div>
-
-      <div id="carousel-sg" class="carousel slide" data-interval="false" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-sg" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-sg" data-slide-to="1"></li>
-            <li data-target="#carousel-sg" data-slide-to="2"></li>
-            <li data-target="#carousel-sg" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/sungaloshes_1-01.png" alt="First slide">
-            </div>
-            <div class="item">
-              <img src="img/sungaloshes_2-02.png" alt="Second slide">
-            </div>
-            <div class="item">
-              <img src="img/sungaloshes_3-03.png" alt="Third slide">
-            </div>
-            <div class="item">
-              <img src="img/sungaloshes_4-05.png" alt="Fourth slide">
-            </div>
-          </div>
-          <a class="left-control" href="#carousel-sg" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right-control" href="#carousel-sg" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
-    </div> 
-   
-    <div id="gallery-scoliosis" class="gallery">
-      <div class="descriptors">
-        <h2>Seventy Days</h2>
-        <p>Scoliosis is the documentation of the healing process of my spine after surgery to correct scoliosis. The project consisted of 70 days of pictures of my back. The white poster displays these pictures with the final x-ray featured on the left, and the other addresses the mental changes that stemmed from such a radical change. The black poster utilizes the ruler and the bolded typographical elements to mimic a straightened spine, with the text overhange recalling the shape of the curvature before surgery.<br><h4>Date</h4>2012 <br><h4>Category</h4>Print Design<br>Layout<br>Typography</p>
-      </div>
-
-      <div id="carousel-scoli" class="carousel slide" data-interval="false" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-scoli" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-scoli" data-slide-to="1"></li>
-            <li data-target="#carousel-scoli" data-slide-to="2"></li>
-            <li data-target="#carousel-scoli" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/scoliosis_1.png" alt="First slide">
-            </div>
-            <div class="item">
-              <img src="img/scoliosis_2.png" alt="Second slide">
-            </div>
-            <div class="item">
-              <img src="img/scoliosis_3.png" alt="Third slide">
-            </div>
-            <div class="item">
-              <img src="img/scoliosis_4.png" alt="Fourth slide">
-            </div>
-          </div>
-          <a class="left-control" href="#carousel-scoli" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right-control" href="#carousel-scoli" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
-    </div> 
-
-    <div id="gallery-mintor" class="gallery">
-      <div class="descriptors">
-        <h2>Mintor</h2>
-        <p>Mintor is an app that helps prospective, current, and former students manage their finances and estimate the information they need for their student loans. I worked on this with a partner, and completed the UX and the visual design. We wanted something that would be easy to navigate, would be useful for multiple stages of the college experience, and that would make the financial information a little less intimidating.<br><h4>Date</h4>2013<br><h4>Category</h4>UX Design<br>Visual Design<br>Mobile Design</p>
-      </div>
-
-      <div id="carousel-mintor" class="carousel slide" data-interval="false" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-mintor" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-mintor" data-slide-to="1"></li>
-            <li data-target="#carousel-mintor" data-slide-to="2"></li>
-            <li data-target="#carousel-mintor" data-slide-to="3"></li>
-            <li data-target="#carousel-mintor" data-slide-to="4"></li>
-            <li data-target="#carousel-mintor" data-slide-to="5"></li>
-            <li data-target="#carousel-mintor" data-slide-to="6"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/mintor_1.png" alt="First slide">
-            </div>
-            <div class="item">
-              <img src="img/mintor_2.png" alt="Second slide">
-            </div>
-            <div class="item">
-              <img src="img/mintor_3.png" alt="Third slide">
-            </div>
-            <div class="item">
-              <img src="img/mintor_4.png" alt="Fourth slide">
-            </div>
-            <div class="item">
-              <img src="img/mintor_5.png" alt="Fifth slide">
-            </div>
-            <div class="item">
-              <img src="img/mintor_6.png" alt="Sixth slide">
-            </div>
-            <div class="item">
-              <img src="img/mintor_7.png" alt="Seventh slide">
-            </div>
-          </div>
-          <a class="left-control" href="#carousel-mintor" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right-control" href="#carousel-mintor" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
-    </div>   
-
-    <div id="gallery-makedomend" class="gallery">
-      <div class="descriptors">
-        <h2>Exhibition</h2>
-        <p>I was part of the marketing team for the University of Texas 2014 BFA Design show. This involved a small team that decided the look and feel of the show and designed any branding material for the show. I helped develop the pattern that became the brand for the show, and I designed the invitation that went out to local studios and designers. Three of my projects were in the show, Esperu, Seventy Days, and Hello. Last picture is courtesy of the VAC and the website for the show can be found at <a href="http://designut.org/seniors2014" target="_blank">http://designut.org/seniors2014.</a><h4>Date</h4>2014<br><h4>Category</h4>Print Design<br>Marketing</p>
-      </div>
-
-      <div id="carousel-makedomend" class="carousel slide" data-interval="false" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-makedomend" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-makedomend" data-slide-to="1"></li>
-            <li data-target="#carousel-makedomend" data-slide-to="2"></li>
-            <li data-target="#carousel-makedomend" data-slide-to="3"></li>
-            <li data-target="#carousel-makedomend" data-slide-to="4"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/makedomend_1.png" alt="First slide">
-            </div>
-            <div class="item">
-              <img src="img/makedomend_2.png" alt="Second slide">
-            </div>
-            <div class="item">
-              <img src="img/makedomend_3.png" alt="Third slide">
-            </div>
-            <div class="item">
-              <img src="img/makedomend_4.png" alt="Fourth slide">
-            </div>
-            <div class="item">
-              <img src="img/makedomend_5.png" alt="Fifth slide">
-            </div>
-          </div>
-          <a class="left-control" href="#carousel-makedomend" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right-control" href="#carousel-makedomend" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
-    </div>  
-
-    <div id="gallery-hello" class="gallery">
-      <div class="descriptors">
-        <h2>Hello.</h2>
-        <p>Hello is an app that helps people learn basic phrases while traveling. I researched phrases that would be helpful while traveling, while staying with a minimal approach. My chosen words were hello, goodbye, yes, no, and the phrase &ldquo;how much?&rdquo; The app is designed for Android. The second version of the app features the word &ldquo;hello&rdquo; floating across the screen in different languages. When they bump into each other, they change color, indicating the way cultures can influence each other. This approaches the idea of the first app symbolically, and the user can move the words around and impact the environment themselves. This is one of the apps I programmed, and the code can by found on Github.<h4>Date</h4>2013<br><h4>Category</h4>UX Design<br>Visual Design<br>Mobile Design<br>Programming</p>
-      </div>
-
-      <div id="carousel-hello" class="carousel slide" data-interval="false" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-hello" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-hello" data-slide-to="1"></li>
-            <li data-target="#carousel-hello" data-slide-to="2"></li>
-            <li data-target="#carousel-hello" data-slide-to="3"></li>
-            <li data-target="#carousel-hello" data-slide-to="4"></li>
-            <li data-target="#carousel-hello" data-slide-to="5"></li>
-            <li data-target="#carousel-hello" data-slide-to="6"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/hello_1.png" alt="First slide">
-            </div>
-            <div class="item">
-              <img src="img/hello_2.png" alt="Second slide">
-            </div>
-            <div class="item">
-              <img src="img/hello_3.png" alt="Third slide">
-            </div>
-            <div class="item">
-              <img src="img/hello_4.png" alt="Fourth slide">
-            </div>
-            <div class="item">
-              <img src="img/hello_5.png" alt="Fifth slide">
-            </div>
-            <div class="item">
-              <img src="img/hello_6.png" alt="Sixth slide">
-            </div>
-            <div class="item">
-              <img src="img/hello_7.png" alt="Seventh slide">
-            </div>
-          </div>
-          <a class="left-control" href="#carousel-hello" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right-control" href="#carousel-hello" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
-    </div>  
-
-    <div id="gallery-esperu" class="gallery">
-      <div class="descriptors">
-        <h2>Esperu</h2>
-        <p>Esperu is a calendar that teaches the user the auxiliary language Esperanto in the course of the year. The language is fairly modular, so each week is separated into a part of speech, and the accompanying grammar booklet teaches the simple grammar. I expanded upon research from the Hello project on this to develop a weekly system through which to learn a language, which is made possible with the structure of Esperanto. This was also an experiment on how to design a flow and experience in a physical product. This system is one that can be constantly modified, and the project underwent modifications for the Senior Exhibition.<h4>Date</h4>2013<br><h4>Category</h4>UX Design<br>Print Design<br>Product Design</p>
-      </div>
-
-      <div id="carousel-esperu" class="carousel slide" data-interval="false" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-esperu" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-esperu" data-slide-to="1"></li>
-            <li data-target="#carousel-esperu" data-slide-to="2"></li>
-            <li data-target="#carousel-esperu" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/esperu_1.png" alt="First slide">
-            </div>
-            <div class="item">
-              <img src="img/esperu_2.png" alt="Second slide">
-            </div>
-            <div class="item">
-              <img src="img/esperu_3.png" alt="Third slide">
-            </div>
-            <div class="item">
-              <img src="img/esperu_4.png" alt="Fourth slide">
-            </div>
-          </div>
-          <a class="left-control" href="#carousel-esperu" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right-control" href="#carousel-esperu" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
-    </div> 
-
-    <div id="gallery-busad" class="gallery">
-      <div class="descriptors">
-        <h2>City of Austin Internship</h2>
-        <p>I worked on various marketing materials for the City of Austin Watershed Protection Department. On the bus campaign, I took control of the bulk of the design process, and worked with the project manager to come up with a concept that would both showcase the winning posters and the website they wanted to advertise. The Grow Green pamphlet had to match the rest of the series, and I arranged the internal content. I chose to showcase an existing illustration. Another booklet I designed for the city can be found <a href="http://issuu.com/austinwatershed/docs/firewisedoc_web" target="_blank"> here.</a> The web version of the Cool Spaces pamphlet can be found <a href="http://austintexas.gov/sites/default/files/files/Watershed/growgreen/CoolSpaces.pdf" target="_blank"> here.</a><h4>Date</h4>2014<br><h4>Category</h4>Print Design<br>Marketing</p>
-      </div>
-
-      <div id="carousel-busad" class="carousel slide" data-interval="false" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-busad" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-busad" data-slide-to="1"></li>
-            <li data-target="#carousel-busad" data-slide-to="2"></li>
-            <li data-target="#carousel-busad" data-slide-to="3"></li>
-            <li data-target="#carousel-busad" data-slide-to="4"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/busad_1.png" alt="First slide">
-            </div>
-            <div class="item">
-              <img src="img/busad_2.png" alt="Second slide">
-            </div>
-            <div class="item">
-              <img src="img/busad_3.png" alt="Third slide">
-            </div>
-            <div class="item">
-              <img src="img/coolspaces_1.png" alt="Fourth slide">
-            </div>
-            <div class="item">
-              <img src="img/coolspaces_2.png" alt="Fifth slide">
-            </div>
-          </div>
-          <a class="left-control" href="#carousel-busad" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right-control" href="#carousel-busad" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
-    </div> 
-
-    <div class="sideview">
-      <a class = "row link" id="fsupport" href="#gallery-fsupport" ><img src="img/fsupport.png" height="120"></a>
-      <a class="row link" id="mintor" href="#gallery-mintor"><img src="img/mintor.png" height="120"></a>
-      <a class = "row link" id="sgaloshes" href="#gallery-sgaloshes" ><img src="img/sungaloshes.png" height="120"></a>
-      <a class="row link" id="hello" href="#gallery-hello"><img src="img/hello.png" height="120"></a>
-      <a class="row link" id="esperu" href="#gallery-esperu"><img src="img/esperu.png" height="120"></a>
-      <a class="row link" id="scoliosis" href="#gallery-scoliosis"><img src="img/scoliosis.png" height="120"></a>
-      <a class="row link" id="busad" href="#gallery-busad"><img src="img/busad.png" height="120"></a>
-      <a class="row link" id="exhibition" href="#gallery-makedomend"><img src="img/exhibition.png" height="120"></a>
-      
+    <div class="header">
+      <img src="images/newlorajklogo.png" alt="Lora JK" style="height:100px;">
     </div>
-
-    <div class="bottombar"><address>
-      <div class="raptor"><img src="img/catraptor.png" height="70"></div>
-      <strong>Lora J. Kulm</strong><br>
-      <abbr title="Phone">P:</abbr> (254)220-5771<br>
-      <a href="mailto:lorakulm@gmail.com">lorakulm@gmail.com</a>
-      <a href="https://github.com/senojl" target="_blank" class="externalsites"> <img src="img/github.png" height="25"></a>
-      <a href="https://www.linkedin.com/pub/lora-kulm/69/145/a46" target="_blank" class="externalsites"> <img src="img/linkedin.png" height="25"></a>
-      </address>
-   </div>
-  </div>
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/sections.js"></script>
-
-    <script type="text/javascript">
-      $('.carousel').carousel({
-      pause: true,
-      interval: false
-      });
-     </script>
-
-
+    <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
+      <main class="mdl-layout__content">
+        <div class="demo-blog__posts mdl-grid">
+          <div class="mdl-card mdl-shadow foxnow mdl-cell mdl-cell--6-col mdl-shadow--2dp">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <h3><a href="entry_2.html"></a></h3>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <strong>FOX NOW <br> UX/UI Design for Android TV</strong>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-card moviefone mdl-cell mdl-cell--6-col mdl-shadow--2dp">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <h3><a href="entry.html"></a></h3>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <strong>Moviefone <br> UX/UI Design for iPad</strong>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-card ups mdl-cell mdl-cell--6-col mdl-shadow--2dp">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <h3><a href="entry_3.html"></a></h3>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <strong>UPS Military Transition App <br> UX/UI Design</strong>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-card mintor mdl-cell mdl-cell--6-col mdl-shadow--2dp">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <h3><a href="entry_4.html"></a></h3>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <strong>Mintor <br> UX Design</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer--left-section">
+            <strong>Contact Me:</strong>
+            <a href="https://www.linkedin.com/pub/lora-kulm/69/145/a46">
+              <button class="mdl-mini-footer--social-btn social-btn social-btn__linkedin">
+                <span class="visuallyhidden">LinkedIn</span>
+               </button>
+             </a>
+          </div>
+          <div class="mdl-mini-footer--right-section">
+           <a href="mailto:lorakulm@gmail.com">lorakulm@gmail.com</a>
+          </div>
+        </footer>
+      </main>
+      <div class="mdl-layout__obfuscator"></div>
+    </div>
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
   </body>
-
+  <script>
+    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
+      var link = el.querySelector('a');
+      if(!link) {
+        return;
+      }
+      var target = link.getAttribute('href');
+      if(!target) {
+        return;
+      }
+      el.addEventListener('click', function() {
+        location.href = target;
+      });
+    });
+  </script>
 </html>
-
